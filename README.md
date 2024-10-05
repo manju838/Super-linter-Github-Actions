@@ -19,4 +19,6 @@ Github Actions is a CI/CD tool to automate a project's build, test and deploy pi
 * Workflows are defined in the .github/workflows directory in a repository.
 * A repository can have multiple workflows, each which can perform a different set of tasks
 
+## [Github Secrets](https://docs.github.com/en/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions)
 
+Github Secrets should host all the secret API keys or other secret variables needed for the code execution. Github Workflow needs Github secret key which is accessed in workflow .yml file.
