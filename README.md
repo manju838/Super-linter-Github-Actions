@@ -12,7 +12,7 @@ Github Actions is a CI/CD tool to automate a project's build, test and deploy pi
 * Each **step** either runs a custom script(defined by user based on usecase) or runs an **action**
 * **Action** is a reusable extension that simplifies the workflow.
 
-## [Github Workflows]()
+## [Github Workflows](https://docs.github.com/en/actions/about-github-actions/understanding-github-actions#workflows)
 
 * A workflow is a configurable automated process that will run one or more jobs.
 * Defined by a YAML file.
